@@ -1,0 +1,12 @@
+{
+  "name": "mern--todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install --prefix todo-fronted && npm install --prefix todo-backend && npm run build --prefix todo-fronted",
+    "start": "cd todo-backend && node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
