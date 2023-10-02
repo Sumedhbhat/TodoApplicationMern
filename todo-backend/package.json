@@ -1,0 +1,31 @@
+{
+  "name": "todo-app-backend",
+  "version": "1.0.0",
+  "description": "todo-app-backend development with node.js, express.js & mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "TODO-APP",
+    "MERN",
+    "MongoDB",
+    "NodeJS",
+    "ExpressJS",
+    "ReactJS",
+    "Mongoose",
+    "Express",
+    "MongoDB",
+    "MERN-TODO"
+  ],
+  "author": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
